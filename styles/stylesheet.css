@@ -63,10 +63,26 @@ body{
   border: 5px blue solid;
   border-radius: 15px
 }
-.main-nav-bar{
-  text-align: center;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-.nav-bar-items{
-  padding: 30px;
-  font-weight: bold;
+li{
+  float: left;
+  border-right: 1px solid #bbb;
+
+}
+li a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+li a:hover{
+  background-color: #111;
 }
