@@ -1,0 +1,72 @@
+.container{
+  width:75%;
+  margin:auto;
+}
+h1{
+  background-color: #333;
+  color:#fff;
+  font-family: Helvetica;
+  text-decoration: underline;
+  padding: 40px;
+  border: 6px red solid;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 25px;}
+h2{
+  font-family: Helvetica;
+  font-style: italic;
+}
+body{
+  background-color: #f4f4f4;
+  font-family: Helvetica;
+  padding: 25px;
+}
+.main-page-text{
+  font-family: Helvetica;
+  line-height: 1.5em;
+  text-align: center;
+}
+.article1{
+  padding:20px;
+  margin:30px;
+  border: 6px blue solid;
+  border-style: dashed;
+  border-radius: 8px;
+}
+.article2{
+  padding:20px;
+  margin:30px;
+  border: 6px green solid;
+  border-style: dashed;
+  border-radius: 8px;
+}
+.main-page-h3s{
+  font-family: Helvetica;
+  font-style: oblique;
+  color: white;
+  background-color: grey;
+  text-align: center;
+}
+.about-me-footer{
+  text-align: center;
+  font-weight: bolder;
+}
+#back-to-home-page{
+  text-align: center;
+  padding:20px;
+}
+#about-me-header{
+  font-family: Helvetica;
+  text-decoration: underline;
+  background-color: #333;
+  color:#fff;
+  border: 5px blue solid;
+  border-radius: 15px
+}
+.main-nav-bar{
+  text-align: center;
+}
+.nav-bar-items{
+  padding: 30px;
+  font-weight: bold;
+}
