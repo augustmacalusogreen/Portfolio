@@ -11,44 +11,36 @@ h1{
   border-radius: 15px;
   padding: 25px;}
 h2{
-  font-family: Helvetica;
+  font-family: 'Montserrat'
   font-style: italic;
 }
 body{
   font-family: 'Montserrat', sans-serif;
   padding: 25px;
 }
-.main-page-text{
-  font-family: Helvetica;
-  line-height: 1.5em;
-  text-align: center;
+.article-wrapper{
+  display:flex;
+  flex-direction: column;
+  border: 5px dodgerblue solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin:auto;
 }
-.article1{
-  padding:20px;
-  margin:30px;
-  border: 6px blue solid;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  background-color: white;
+.main-page-articles{
+  margin: auto;
 
 }
-.article2{
-  padding:20px;
-  margin:30px;
-  border: 6px green solid;
-  border-radius: 8px;
-}
-.main-page-h3s{
-  font-family: Helvetica;
-  font-style: oblique;
-  color: white;
-  background-color: white;
-  text-align: center;
+img{
+  width: auto;
+  margin: 12px;
 }
 h3 a{
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     color: #000;
+}
+h3 a:hover{
+  background-color:#ccff99;
 }
 
 .about-me-footer{
@@ -91,7 +83,9 @@ li a{
 li a:hover{
   background-color: #111;
 }
-.flex-container{
-  display:flex;
+.main-page-text{
+  margin: 20px;
+  padding: 15px;
   justify-content: center;
+  background-color: #99ffe6;
 }
